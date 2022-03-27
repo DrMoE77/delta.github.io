@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="styles.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>Community Pharmacist Order  Form</h1>
+
+<h2>Please enter your Delta Account Identifcation Number (DAIN)</h2>
+
+<body>
+
+    <form>
+        <label for="email">Email</label>
+        <input id =email type="email" name =email>
+        <label for="pharmacyName">Pharmacy Name:</label>
+        <input id= "pharmacyName"type= "text" name= "pharmacyName">
+        <label for="Suburb">Suburb:</label>
+        <input id= "Suburb"type= "text" name= "Suburb">
+        <label for="researchID">Delta Account Identifcation Number (DAIN):</label>
+        <input id= "researchID"type= "text" name ="researchID">
+    
+        <p>
+            <strong>Dsipensary Orders </strong>
+        </p>
+        <p>Please enter <strong>ALL</strong> Dsipensary orders here including S8 and S4</p>
+        <label for="quesTionone">List S4B, S4D and S8  items:</label>
+            <input id= "quesTionone"type= "text">
+            
+        <p>
+            <strong>BTC Orders</strong>
+        </p>
+        <p>Please enter all behind the counter (BTC) orders here</p>
+            <label for="bTC"> List S3:</label>
+            <input id= "bTc"type= "text">
+            
+        <p>
+            <strong>OTC</strong>
+        </p>
+        <p>Please list all over the counter medicines</p>
+        <label for="quesTionthree">enter over the counter medicines here:</label>
+            <input id= "quesTionthree"type= "text">
+            
+        <p>
+            
+            <strong>FOS</strong>
+        </p>
+        <p>Please enter all front of shop orders here</p>
+        <label for="quesTionfour">List all FOS here:</label>
+            <input id= "quesTionfour"type= "text">
+            
+        <p>
+            <strong>Deals with Delta</strong>
+        </p>
+        <p>Please list deals or promo codes you have with Delta </p>
+        <label for="quesTionfive">Enter code here:</label>
+            <input id= "quesTionfive"type= "text">
+        
+            
+        <input id= "saveForm" type ="submit" value="submit">
+    
+    </form>
+    </body>
+
+
+    </html>
+    <footer>
+        <script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+    
+    </footer>
+   
+</html>
